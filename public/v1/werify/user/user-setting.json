@@ -1,0 +1,10 @@
+{
+  "succeed": true,
+  "message": null,
+  "result": {
+    "daily_report"  : "yes",
+    "auto_renewal"  : "yes",
+    "auto_withdraw" : null
+  },
+  "meta": []
+}

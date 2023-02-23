@@ -1,0 +1,18 @@
+{
+  "succeed": true,
+  "message": "Response successfully returned.",
+  "results": [
+    {
+      "uuid": "75a7b2f6-0905-42a0-95ff-19107eda112d",
+      "name": "My Purse",
+      "currency": "GBP",
+      "note": null,
+      "status": 0,
+      "number": 369508865,
+      "color": null,
+      "balance": "0.000000000000000000",
+      "freeze": "0.000000000000000000"
+    }
+  ],
+  "metas": []
+}

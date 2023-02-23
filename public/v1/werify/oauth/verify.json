@@ -1,0 +1,22 @@
+{
+  "succeed": true,
+  "message": "User logged in successfully",
+  "result": {
+    "first_name": null,
+    "middle_name": null,
+    "last_name": null,
+    "email": null,
+    "mobile": "447888872720",
+    "phone_number": null,
+    "country": "GB",
+    "language": "en-US",
+    "timezone": "Europe/London",
+    "last_connection": null,
+    "private": false,
+    "avatar": null,
+    "status": 0,
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5ODc5MWVmYy04YzIyLTQ0MjEtYjQ5Ny1iNTViNTAxMDEzOGEiLCJqdGkiOiIwY2MyY2UyNzRmYThjNjM4NjI2MWI2OGFlZWQwNTY2NjJjOTIyMzMyZTQ1MmQxZDg1MTc1YmVmMTc5MTliODIxM2YzOTJiNGJkZTQ0ZGI5NSIsImlhdCI6MTY3NjQ2OTU0Ny4xNDkyNzcsIm5iZiI6MTY3NjQ2OTU0Ny4xNDkyNzgsImV4cCI6MTcwODAwNTU0Ny4xNDU2NTIsInN1YiI6Ijk4NzkxZjE0LWE3NjQtNGUzYy05NzI3LTFmNWRmMWRjNGQ1MyIsInNjb3BlcyI6W119.Vk59Eg_-R5jts1J2ZY_-OXsfxmMZp-zoLjk4g_c1y-A9ytdCt5jqAyLjWRG7m_9JblRrsEDXuVyE-z91_t_6MwLkfhCldh8_AjIusQQm-I9cy_kZpoCES_t40H3121gBeAe0j3sw-qFsm3ojcmNMHn14NCV359OJLogE_Jcv0lHbyNdN-2WF0gN6UHzGXZiOWT_tttl4_QTf64U__bq3hHUU9KRKEL5moKKwj3-v3UGllxarCZWleoe7ncn0FkUSx4cSp8luusDj6ss806VZj6lg-tPGG2RnC9_sqq4hdkweTc0DR-APE7saBXCXapIek6sjd2QblfjocZTmiyVhOLQjCClPMjdQfQIO5FH52ccPTUNF39aQHkCZ4nf6zbatzMOsw0q5gSaRo51xsQDw7CpBZVgH2gogMwmElOdEdVTVWtn3LjjJZz_Y98wuYoASKTMFuUZTOqqL4vRW0lb5tTbW8gMa1IOEdYxA4oz33bQjo6Zj25ZvJFuCjCq2sNgBawD2NOrqY1sNEKrlgN98rwIY1GnOoaJgUji9GMlBIWbHtA60DDDNZsospl55mXSCMZ4p5BKnll4rzeI3rRCZeHKSsKuasYTGVx7JSsxRV0wy99RrWHnQq1T-zonjRdktPu93dHT9v0D0X0O-1Q1_tHNW2Pna_BmD5_WQ3ETFUwY",
+    "token_type": "bearer"
+  },
+  "meta": []
+}

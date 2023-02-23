@@ -1,0 +1,22 @@
+{
+  "succeed": true,
+  "message": "User logged in successfully",
+  "results": {
+    "first_name": null,
+    "middle_name": null,
+    "last_name": null,
+    "email": "hi@trader4.net",
+    "mobile": null,
+    "phone_number": null,
+    "country": "GB",
+    "language": "en-US",
+    "timezone": "Europe/London",
+    "last_connection": "2023-02-13T08:21:26.555766Z",
+    "private": false,
+    "avatar": null,
+    "status": 0,
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5ODc0YzljNC02NmE3LTQ2ZDMtOTJkMy0zNTkyMzRkZGMxN2YiLCJqdGkiOiJkNWE0MmMwZDUxYzZjNTAyZGRjMDY3YTAyMTk3YjczMGQxNDk2NWVlNDU2NDdjZWM4NjAyNWFhYmI1ZDY1NGMwZDBlZjQ0MTg4M2YxNWNlNiIsImlhdCI6MTY3NjI3NjQ4Ni41OTUyNjIsIm5iZiI6MTY3NjI3NjQ4Ni41OTUyNjQsImV4cCI6MTcwNzgxMjQ4Ni41ODk1NjcsInN1YiI6Ijk4NzRjYjM5LTllYzctNDZhOC1hYWMwLWVkZTA4ZjY1MzdmNyIsInNjb3BlcyI6W119.o-a8VfBO9uvJRJkKlr1kE3SJbhhMlO6m-zAGfynBs4RxxT-wfEx0cVF0wtTpW3-Kd9c6bkwbO94yReg_g7NllNHO9VlkrpAT-IG04-9l3BKuqSltc7QrfvWpXDPyOQV94hLxTtjsnHPGI14YSYliYvDgJOsKiZ_ZySxHw5qRGgqtAtS9a6P-2Jqk4P1xCPXtzhf6myuAGWegRCI8K2krb8KvxSUeOeHcS_YLkluvuu_acED8c1fI6iOGNCynFE8Q1zMUZHQJlboiynqHuKLCXYNE8oJXZ4w_twXv5rNG1pqU5cnkPVIFIWuMd4hb5lPQQt9LNGZoUw6yVz0iBsw4G1lH3fbaNRnXY4IOWq8tq9mX-BotMz6vuf8JLJ3aY0K8wQpYkCwJxB6bSCBjewg9iRlExT5uCmIJ3d2OcecVzQsQIc3WZjL40eJGDPkd4L07XQkUNfHytWO92OzMo_oE3EqCYCoBys96e4ALu4kPv67ASN-_PhzibJdJixiv70-mGk0oSUxw8Ma20fjjG-NJdIWxdW0O02L4-I6WP3veBc2Gq1A-kB435qn5ldv8vjATE3v5tCmKRU_noXhhCgfCdWE5-hk4FOKFuTnx54nFoukPxBpt1XGZJV5JPPyZt8CRDhmiyK16vTRkKM1i4CX2Heg_WxLvzn37eIBbWv9iUO0",
+    "token_type": "bearer"
+  },
+  "metas": []
+}

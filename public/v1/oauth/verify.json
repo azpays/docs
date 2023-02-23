@@ -1,0 +1,22 @@
+{
+  "succeed": true,
+  "message": "User logged in successfully",
+  "results": {
+    "first_name": null,
+    "middle_name": null,
+    "last_name": null,
+    "email": "hi@trader4.net",
+    "mobile": null,
+    "phone_number": null,
+    "country": null,
+    "language": null,
+    "timezone": null,
+    "last_connection": "2023-02-13T07:38:52.014281Z",
+    "private": null,
+    "avatar": null,
+    "status": null,
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5ODc0YzljNC02NmE3LTQ2ZDMtOTJkMy0zNTkyMzRkZGMxN2YiLCJqdGkiOiJjYzhmM2NhYTVhZjY3NDRmN2NmZjAwNmU5MzIyMDVhY2ZhZWI5NmYzMzQ1MTY4MjVkYmE4NzJkOWNjMWYwZDkyMGZhNzJhNWIyMjZmZDBiOCIsImlhdCI6MTY3NjI3MzkzMy4yNDM4NTUsIm5iZiI6MTY3NjI3MzkzMy4yNDM4NiwiZXhwIjoxNzA3ODA5OTMzLjA3NTIwMiwic3ViIjoiOTg3NGNiMzktOWVjNy00NmE4LWFhYzAtZWRlMDhmNjUzN2Y3Iiwic2NvcGVzIjpbXX0.JjElH9Tw_Oi4j1LNBg_enso9XkIpXox_yJ695wziOhrBJSaZLQYhSprJ4KkCrllaEtbqhZC8YrvcHqPkD0nVBRjea96VtIBFydCH0d7wQHPTSnPR1CVY7K5j9b14z7-xxB38kX-1Gui9gDZZruR1zGoFpo552O3n4x5Oqj889_8XSH6E-xfqcYk1BBLxx5cmIaBscIWmpJHkeG0NhOqUX-QRT2hhkLR8GqojjowDiRsk_ZhmGSZX8XvE1ESSrcnimpFCsO6GLax_a5GgN1RwhGNnViDPNwMtPys6rV-1yuc3kQNUMo-sq-7y18L9Dpnh83PYC8utAdArpPygOyEU3917IyTaDy7Vhh3Sye6sgmI7Vam9_w0WWLSgECDGfB5bUir227oMrM1l-AuaYKKUVSPhaxW0OoVEdJMeRPn4AR5tlm2QM04mOaq-mGzwXgVHYzjx6Rldm2-QW3YbVe1M2LRwTK4LIRW2zWRQq3VtPlBegxF5Fdn341BRnbu-OyidS1aBQUFy-_ufdZbyDTnLUmbLYEe5K8K9EEYP26i6HqK0vyi5Xo3U3edYXjQ5xfaDDTRqVNhuIoUFclj_gKSa_c9J1JdbwZkxcuLTZoWhqDiI2QhcnRaGW9365kL2Q8ckZxIpaOOpBE3kxMSgOfrqu-phVt9I-DoQX-npliHB91A",
+    "token_type": "bearer"
+  },
+  "metas": []
+}

@@ -1,0 +1,20 @@
+{
+  "succeed": true,
+  "message": null,
+  "result": {
+    "first_name": null,
+    "middle_name": null,
+    "last_name": null,
+    "email": null,
+    "mobile": "447888872720",
+    "phone_number": null,
+    "country": "GB",
+    "language": "en-US",
+    "timezone": "Europe/London",
+    "last_connection": null,
+    "private": false,
+    "avatar": null,
+    "status": 0
+  },
+  "meta": []
+}

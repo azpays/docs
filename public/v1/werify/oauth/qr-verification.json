@@ -1,0 +1,22 @@
+{
+  "succeed": true,
+  "message": "User logged in successfully",
+  "result": {
+    "first_name": null,
+    "middle_name": null,
+    "last_name": null,
+    "email": null,
+    "mobile": "9122438874",
+    "phone_number": null,
+    "country": "GB",
+    "language": "en-US",
+    "timezone": "Europe/London",
+    "last_connection": null,
+    "private": false,
+    "avatar": null,
+    "status": 0,
+    "access_token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5ODc5MWVmYy04YzIyLTQ0MjEtYjQ5Ny1iNTViNTAxMDEzOGEiLCJqdGkiOiI3YzJiNGIwNTk3YzEyYTc2NDkzNmE3MzkxNWY4YzBmNGVlOGFmZDc3NzdmM2M4N2UxZGNmZjcyZWZhZjBkNWJiNzAyY2UzMWEzY2E4NjgwOSIsImlhdCI6MTY3NjQ3MTM5OS40MjIwMTksIm5iZiI6MTY3NjQ3MTM5OS40MjIwMjEsImV4cCI6MTcwODAwNzM5OS40MTk1OTIsInN1YiI6Ijk4NzkxZjE0LWE3NjQtNGUzYy05NzI3LTFmNWRmMWRjNGQ1MyIsInNjb3BlcyI6W119.ZIOtSNuWDxouPnZKRTN2n65K4hsOnz-7MOH-KC12n6yNnDfBAloCrjqmpEw0cpKgCGMX0dkv_1SMrw214PpXFjVQE9GOtCHn9BtAKdV3ePlkkej0VvSkrKuh5FNm4w6lPzyndmkwYBrqQ69WK0hbQX3469c33kYxVi5lZINJdFcZXgIFq9Sl5rQ2K7UDq5_Bz7aoy5x_NfmWnhNVjwbcjKFuZbFEAFKFvUeYn50dpCgI_QjdJ2i6E10lDtDrFp08IFnBhLV0GPJrXz-L4XlqhY1IAEXSDoKnOoArncvk8g_R_ukNIr4TeuWgBY4LdRkZ84lQMmlWXZUc0p-HN1DQThm0mzknlV6nCPHJD7eAyKPHUIUlDbAucNZJuhxX2LBBVblN0WQyYak4Blk3hwwt18YjiGlrZgMqgmETRqjdl0K3ZMXjeFlOPE_gu59aMwmdtq-PLkzNwBHIQqpcruYvIA00odEMNlt6iA1CZ-oyI6UJaq6BzQTR_4EMoXzIL5RiBK2nDSz2t2ITgGaupD-GAl7NOi-gTNpzgC7nxJzgED_WH9R3gNLhjjJbcJTwEiGYdtgk7M2q7u-qekXxkMz78P0LuSRYvzE9fBpqAKiEmKnZyz7QMFMcqkEWcBljmZHQhAmQ8em95V8IXFyw4sr-bQSVyEiJi9dPxxo7xzyfM2Q",
+    "token_type": "bearer"
+  },
+  "meta": []
+}

@@ -1,0 +1,10 @@
+{
+  "succeed": true,
+  "message": "Qr Code login image created successfully",
+  "results": {
+    "token": "tr44670677563e9edb832e43",
+    "expired_at": "2023-02-13T08:01:48.208481Z",
+    "url": "https://api.trader4.net/v1/oauth/qr/tr44670677563e9edb832e43"
+  },
+  "metas": []
+}

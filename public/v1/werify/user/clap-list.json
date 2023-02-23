@@ -1,0 +1,10 @@
+{
+  "succeed": true,
+  "message": null,
+  "result": {
+    "url" : "https:www.google.com",
+    "date" : "2023-02-02 10:13:57",
+    "clap_count" :20
+  },
+  "meta": []
+}

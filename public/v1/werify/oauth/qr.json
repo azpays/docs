@@ -1,0 +1,10 @@
+{
+  "succeed": true,
+  "message": "Qr Code login image created successfully",
+  "result": {
+    "token": "wrf76ecb46331cc3a3494b0",
+    "expired_at": "2023-02-15T14:26:12.360273Z",
+    "qr_image": "https://api.werify.net/v1/oauth/qr/wrf76ecb46331cc3a3494b0"
+  },
+  "meta": []
+}
