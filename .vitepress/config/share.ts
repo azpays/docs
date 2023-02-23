@@ -20,8 +20,8 @@ export const shareConfig = defineConfig({
   ignoreDeadLinks: true,
   themeConfig: {
     logo: {
-      src: "/images/Azpays-02.svg",
-      alt: "Azpays Docs-logo",
+      src: "/images/logo.svg",
+      alt: "AzPays Docs Logo",
     },
     socialLinks: [{ icon: "github", link: github }],
   },
