@@ -1,0 +1,25 @@
+{
+  "succeed": true,
+  "message": "Response successfully returned.",
+  "results": [
+    {
+      "id": "75a7b2f6-0905-42a0-95ff-19107eda112d",
+      "name": "My Merchant",
+      "logo": null,
+      "categories": null,
+      "tags": null,
+      "tell": "93632722",
+      "domain": "domain.com",
+      "ip": "222.4567.45.35",
+      "description": "is simply dummy text of the printing and typesetting industry",
+      "support_email": "test@gmail.com",
+      "support_phone": "987654321",
+      "support_url": "www.yahoo.com",
+      "color": "FFFFFF",
+      "status": 0,
+      "created_at": "2023-02-06T15:35:16.000000Z",
+      "updated_at": "2023-02-06T15:35:16.000000Z"
+    }
+  ],
+  "metas": []
+}

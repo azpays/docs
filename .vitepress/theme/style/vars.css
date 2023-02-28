@@ -1,0 +1,114 @@
+/**
+ * Colors
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-font-family-mono: Menlo, "Noto Sans Mono", ui-monospace, SFMono-Regular,
+    "SF Mono", Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --vp-layout-max-width: 1490px;
+  --vp-c-accent: rgb(218, 180, 11);
+  --vp-c-brand: #005de5;
+  --vp-c-brand-light: #005de5;
+  /* --vp-c-brand-lighter: #d2361c; */
+  --vp-c-brand-lighter: #0063a0;
+  --vp-c-brand-dark: #0063a0;
+  --vp-c-brand-darker: #0063a0;
+  --vp-c-green-light: #16a891;
+  --vp-c-bg-nav: rgba(255, 255, 255, 0.7);
+  --vp-c-bg-mark: rgb(232, 232, 232);
+  /* --vp-custom-block-tip-border: rgba(18, 181, 157, 0.5); */
+  --vp-custom-block-tip-border: #15438c80;
+  /* --vp-custom-block-tip-bg: hsla(171, 82%, 39%, 0.102); */
+  --vp-custom-block-tip-bg: rgba(107, 228, 255, 0.102);
+  --vp-custom-block-tip-text: #15438c;
+  --vp-code-block-bg: rgba(232, 232, 232, 0.3);
+  --vp-c-text-dark-1: rgb(240, 238, 238);
+  --vp-c-text-dark-3: rgb(111, 111, 111);
+  --vp-code-line-highlight-color: rgba(229, 229, 229, 0.5);
+  --vp-code-copy-code-hover-bg: rgba(121, 121, 121, 0.1);
+  --vp-code-copy-code-active-text: var(--vp-c-text-dark-3);
+  --vp-c-kbd-box-outside-shadow: inset 0 -2px 0 0 #cdcde6,
+    inset 0 0 1px 1px #fff, 0 1px 2px 1px rgba(30, 35, 90, 0.4);
+  --vp-c-kbd-box-inside-shadow: inset 1px 1px 2px #cdcde6,
+    inset -1px -1px 4px #fff;
+  --docsearch-container-background: rgba(83, 85, 90, 0.8);
+  --docsearch-logo-color: hsl(14, 57%, 43%);
+}
+
+.dark {
+  --vp-c-brand: #005de5;
+  --vp-c-bg: rgb(26, 26, 26);
+  --vp-c-bg-alt: rgb(23, 23, 23);
+  --vp-c-bg-nav: rgba(23, 23, 23, 0.7);
+  --vp-c-bg-mark: rgb(0, 0, 0);
+  --vp-custom-block-tip-text: #dae1dd;
+  --vp-code-block-bg: rgba(0, 0, 0, 0.3);
+  --vp-code-line-highlight-color: rgba(0, 0, 0, 0.5);
+  --vp-code-copy-code-hover-bg: rgba(255, 255, 255, 0.05);
+  --vp-code-copy-code-active-text: var(--vp-c-text-dark-2);
+  --vp-c-bg-mute: #2d2d2d;
+  --vp-c-kbd-box-outside-shadow: -1px -1px 1px #505050, 1px 1px 6px #000;
+  --vp-c-kbd-box-inside-shadow: inset 1px 1px 3px #000,
+    inset -3px -3px 6px #505050;
+}
+
+/**
+ * Component: Button
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-button-brand-active-border: var(--vp-c-brand-light);
+}
+.dark {
+  --vp-button-brand-hover-bg: var(--vp-c-brand-darker);
+  --vp-button-alt-bg: var(--vp-c-bg-mute);
+}
+
+/**
+ * Component: Home
+ * -------------------------------------------------------------------------- */
+
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    270deg,
+    /* #ef6f6f 30%, */ #005de5 30%,
+    /* #f090b0 */ #80cfff
+  );
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    /* #ffffff 30%, */ #ffffff 30%,
+    /* #e66666 */ #80cfff
+  );
+  --vp-home-hero-image-filter: blur(30px);
+}
+
+.dark {
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    270deg,
+    /* #f25959 30%, */ #005de5 30%,
+    /* #e0cdee */ #bfe7ff
+  );
+  --vp-home-hero-image-background-image: linear-gradient(
+    -45deg,
+    /* #fff1f1 30%, */ #fff1f1 30%,
+    /* #f25959 */ #005de5
+  );
+}
+
+@media (min-width: 640px) {
+  :root {
+    --vp-home-hero-image-filter: blur(20px);
+  }
+}
+
+/**
+ * Component: Algolia
+ * -------------------------------------------------------------------------- */
+
+.DocSearch {
+  --docsearch-primary-color: var(--vp-c-brand) !important;
+}
+.DocSearch-Commands-Key {
+  --docsearch-key-shadow: var(--vp-c-kbd-box-outside-shadow) !important;
+}

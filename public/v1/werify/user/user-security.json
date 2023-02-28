@@ -1,0 +1,16 @@
+{
+  "succeed": true,
+  "message": "The data has been successfully updated",
+  "result": {
+    "anti_phishing": "QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI5ODc5MWVmYy04YzIyLTQ0MjEtYjQ5Ny1iNTViNTAxMDEzOGEiLCJqdGkiOiIwY2",
+    "google2fa_secret": "eyJ0eXAiOiJKV1MyY2UyNzRmYThjNjM4NjI2MWI2OGFlZWQwNTY2NjJjOTIyMzMyZTQ1MmQxZDg1MTc1YmVmMTc5MTliODIxM2YzOTJiNGJkZTQ0ZGI5NSIsImlhdCI6MTY3N",
+    "email_2step": "NzRmYThjNjM4NjI2MWI2OGFlZWQwNTY2NjJjOTIyMzMyZTQ1MmQxZDg1MTc1YmVmMTc5MTliODIxM2Yz",
+    "app_2step": "NzRmYThjNjM4NjI2MWI2OGFlZWQwNTY2NjJjOTIyMzMyZTQ1MmQxZDg1MTc1YmVmMTc5MTliODIxM2Yz",
+    "mobile_2step": "447888872720",
+    "same_wallet": null,
+    "fund_password": null,
+    "registered_wallets": null,
+    "delay": 1
+  },
+  "meta": []
+}

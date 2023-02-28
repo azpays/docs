@@ -1,0 +1,22 @@
+{
+  "succeed": true,
+  "message": "Response successfully returned.",
+  "results": [
+    {
+      "id": "75a7b2f6-0905-42a0-95ff-19107eda112d",
+      "name": "My Purse",
+      "currency": "GBP",
+      "note": null,
+      "status": 0,
+      "address": null,
+      "color": "FFFFFF",
+      "balance": "0.000000000000000000",
+      "freeze": "0.000000000000000000",
+      "locked": null,
+      "crated_at": "2023-02-06T15:50:00.000000Z",
+      "updated_at": "2023-02-06T15:50:00.000000Z"
+
+    }
+  ],
+  "metas": []
+}

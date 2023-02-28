@@ -1,0 +1,15 @@
+{
+  "id": "98791f56-39c2-4e7b-99ee-e910a4ac79e7",
+  "title": null,
+  "type": 1,
+  "status": 0,
+  "comment": "This post is awesome",
+  "black_list": [
+    ""
+  ],
+  "description": "image1.png",
+  "report": {
+    "id": "98791ef3-3a77-41ba-adab-2dbbbb423c51",
+    "cause": "Violent or repulsive content"
+  }
+}

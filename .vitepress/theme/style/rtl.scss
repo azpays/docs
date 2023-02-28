@@ -1,0 +1,179 @@
+.rtl {
+  body {
+    direction: rtl;
+  }
+  main {
+    display: block;
+    text-align: right;
+  }
+  div {
+    text-align: right;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    text-align: right;
+  }
+  p {
+    margin: 0;
+    text-align: right;
+  }
+  strong,
+  b {
+    font-weight: 600;
+    text-align: right;
+  }
+  a,
+  area,
+  button,
+  [role="button"],
+  input,
+  label,
+  select,
+  summary,
+  textarea {
+    text-align: right;
+  }
+  a {
+    text-align: right;
+  }
+  ol,
+  ul {
+    text-align: right;
+  }
+  blockquote {
+    margin: 0;
+    text-align: right;
+  }
+  pre,
+  code,
+  kbd,
+  samp {
+    text-align: right;
+  }
+  img,
+  svg,
+  video,
+  canvas,
+  audio,
+  iframe,
+  embed,
+  object {
+    display: block;
+  }
+  figure {
+    margin: 0;
+    text-align: right;
+  }
+  img,
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    text-align: right;
+  }
+  button {
+    text-align: right;
+  }
+  button:enabled,
+  [role="button"]:enabled {
+    cursor: pointer;
+  }
+
+  input:focus,
+  textarea:focus,
+  select:focus {
+    text-align: right;
+  }
+  table {
+    text-align: right;
+  }
+  input {
+    text-align: right;
+  }
+
+  select {
+    -webkit-appearance: none;
+  }
+  fieldset {
+    margin: 0;
+    padding: 0;
+  }
+  .VPNav {
+    max-width: 1440px;
+
+    .VPNavBar.has-sidebar {
+      .container {
+        flex-direction: row-reverse;
+      }
+      .title {
+        right: 0;
+        left: unset;
+      }
+      .content {
+        direction: rtl;
+        padding-left: 20px;
+        @media (min-width: 1440px) {
+          padding-left: 1/2;
+        }
+      }
+    }
+  }
+
+  .VPSidebar {
+    direction: rtl;
+  }
+  .VPDoc .container {
+    flex-direction: row-reverse;
+  }
+  .VPContent.has-sidebar {
+    padding-left: unset;
+    @media (min-width: 960px) {
+      padding-right: 15rem;
+    }
+  }
+  @media (min-width: 1440px) {
+    .VPContent.has-sidebar {
+      padding-right: calc((100vw - var(--vp-layout-max-width)) / 1);
+      /* padding-left: calc(
+        (100vw - var(--vp-layout-max-width)) / 6 + var(--vp-sidebar-width)
+      ); */
+    }
+  }
+  .VPSidebar {
+    right: 0;
+    left: unset;
+    padding-right: max(
+      32px,
+      calc((100% - (var(--vp-layout-max-width) - 64px)) / 2)
+    );
+    @media (min-width: 1440px) {
+      width: calc(
+        (100% - (var(--vp-layout-max-width) - 64px)) / 2 +
+          var(--vp-sidebar-width) - 32px
+      );
+    }
+  }
+  .VPContent .has-sidebar {
+    .container {
+      .aside {
+        .aside-container {
+          .content {
+            border-left: unset;
+            padding-left: unset;
+            padding-right: 16px;
+            border-right: 1px solid var(--vp-c-divider);
+          }
+        }
+      }
+    }
+  }
+}

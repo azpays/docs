@@ -1,0 +1,12 @@
+apiVersion: v2
+appVersion: 0.0.1
+name: azpays-docs
+version: 0.0.1
+description: A helm chart for azpays docs project
+home: https://gitlab.com/azpays/docs
+maintainers:
+- name: Alireza Josheghani
+  url: https://github.com/mrjosh
+sources:
+- https://gitlab.com/azpays/docs
+type: application
