@@ -1,0 +1,11 @@
+{
+  "succeed": true,
+  "message": "The data has been successfully updated.",
+  "result": {
+    "id": "98935c83-4df6-4a67-9906-78598803bb6d",
+    "name": "sample gateway",
+    "logo": null,
+    "status": 14101
+  },
+  "meta": []
+}

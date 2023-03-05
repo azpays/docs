@@ -1,0 +1,20 @@
+{
+  "succeed": true,
+  "message": "The data has been successfully created.",
+  "result": {
+    "id": "9893a4d5-ad57-4c55-8620-57e9510ace4a",
+    "gateway_id": "98935c83-4df6-4a67-9906-78598803bb6d",
+    "name": "network 1",
+    "fee": "2.00",
+    "support_portal": null,
+    "support_email": "test@example.com",
+    "support_phone": "+446562852235",
+    "processing_time": "165165158451",
+    "confirm_time": "165165158451",
+    "payout_time": "165165158451",
+    "countries": "iri,usa",
+    "processors": "test",
+    "logo": null
+  },
+  "meta": []
+}
