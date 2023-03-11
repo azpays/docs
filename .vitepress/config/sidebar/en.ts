@@ -118,6 +118,10 @@ export const en: DefaultTheme.Sidebar = {
               link: "/en/api/trader4/finance",
             },
             {
+              text: "Merchants",
+              link: "/en/api/merchants",
+            },
+            {
               text: "Marketplace",
               link: "/en/api/trader4/marketplace",
             },
