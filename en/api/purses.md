@@ -191,7 +191,7 @@ Using our Delete Method, users are now able to easily Delete their purses inform
 <template #code>
 
 ```bash
-$ curl --request GET \
+$ curl --request Delete \
   https://api.trader4.net/v1/purses/{id}
 ```
 
