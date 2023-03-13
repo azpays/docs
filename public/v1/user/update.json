@@ -1,20 +1,20 @@
 {
   "succeed": true,
-  "message": "Response successfully returned",
+  "message": "The data has been successfully updated",
   "result": {
     "first_name": null,
     "middle_name": null,
     "last_name": null,
-    "email": "hi@trader4.net",
-    "mobile": null,
+    "email": null,
+    "mobile": "447888872720",
     "phone_number": null,
     "country": "USA",
     "language": "en-US",
     "timezone": "Europe/London",
     "currency": "EUR",
-    "last_connection": "2023-02-26T16:47:52.000000Z",
+    "last_connection": null,
     "private": false,
     "avatar": null
   },
-  "metas": []
+  "meta": []
 }
