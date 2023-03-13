@@ -114,6 +114,10 @@ export const en: DefaultTheme.Sidebar = {
               link: "/en/api/user",
             },
             {
+              text: "Payment",
+              link: "/en/api/payment",
+            },
+            {
               text: "Finance",
               link: "/en/api/trader4/finance",
             },
