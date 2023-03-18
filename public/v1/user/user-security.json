@@ -1,0 +1,16 @@
+{
+  "succeed": true,
+  "message": "The data has been successfully updated",
+  "result": {
+    "anti_phishing": true,
+    "google2fa_secret": true,
+    "email_2step": false,
+    "app_2step": false,
+    "mobile_2step": false,
+    "same_wallet": false,
+    "fund_password": true,
+    "registered_wallets": true,
+    "delay": 1
+  },
+  "meta": []
+}
