@@ -1,0 +1,21 @@
+{
+  "succeed": true,
+  "message": "The data has been successfully updated",
+  "results": {
+    "profit_email": false,
+    "profit_push": true,
+    "withdraw_email": true,
+    "withdraw_push": true,
+    "deposit_email": true,
+    "deposit_push": true,
+    "wallet_email": true,
+    "wallet_push": true,
+    "support_email": true,
+    "support_push": true,
+    "transaction_email": true,
+    "transaction_push": true,
+    "marketing_email": true,
+    "marketing_push": false
+  },
+  "metas": []
+}

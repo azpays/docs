@@ -1,0 +1,21 @@
+{
+  "succeed": true,
+  "message": "Response successfully returned",
+  "result": {
+    "profit_email": false,
+    "profit_push": false,
+    "withdraw_email": false,
+    "withdraw_push": false,
+    "deposit_email": false,
+    "deposit_push": false,
+    "wallet_email": false,
+    "wallet_push": false,
+    "support_email": false,
+    "support_push": false,
+    "transaction_email": false,
+    "transaction_push": false,
+    "marketing_email": false,
+    "marketing_push": false
+  },
+  "metas": []
+}
