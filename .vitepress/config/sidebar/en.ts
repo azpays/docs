@@ -114,8 +114,8 @@ export const en: DefaultTheme.Sidebar = {
               link: "/en/api/user",
             },
             {
-              text: "Payment",
-              link: "/en/api/payment",
+              text: "Purses",
+              link: "/en/api/purses",
             },
             {
               text: "Merchants",
@@ -133,10 +133,15 @@ export const en: DefaultTheme.Sidebar = {
               text: "Rate",
               link: "/en/api/rate",
             },
-            {
-              text: "Purses",
-              link: "/en/api/purses",
-            }
+        {
+          text: "Payment",
+          link: "/en/api/payment",
+        },
+        {
+          text: "Transaction",
+          link: "/en/api/transaction",
+        },
+
       ],
     },
   ],

@@ -87,7 +87,9 @@ Using our Store Purses Method, users are now able to easily store their purses i
 
 <template #params>
 
+- `name` <span>String</span>, The private custom name of purse.
 - `currency` <span>String</span>, The currency that user selected. Check out [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html).
+- `note` <span>String</span> The user private custom note.
 - `color` <span>String</span> color.
 
 </template>
@@ -98,8 +100,10 @@ Using our Store Purses Method, users are now able to easily store their purses i
 $ curl --request POST \
   https://api.trader4.net/v1/purses \
   -d '{
-    "currency": "IRR",
-    "color" : "000000",
+      "name"  : "trader4",
+      "currency": "IRR",
+      "note"  : "Test purse for trader4",
+      "color" : "000000",
   }'
 ```
 
@@ -205,5 +209,30 @@ $ curl --request Delete \
 
 </template>
 </Response>
+
+### Type Codes
+| CODE               | CONSTANT                       | DESCRIPTION                                     |
+|--------------------|--------------------------------|-------------------------------------------------|
+| <code>12000</code> | <pre>GENERAL</pre>             | The purse will be used for general.             |
+| <code>12001</code> | <pre>DEPOSIT</pre>             | The purse will be used for deposit.             |
+| <code>12002</code> | <pre>WITHDRAW</pre>            | The purse will be used for withdraw.            |
+| <code>12003</code> | <pre>TRANSFER</pre>            | The purse will be used for transfer.            |
+| <code>12004</code> | <pre>REFUND</pre>              | The purse will be used for refund.              |
+| <code>12005</code> | <pre>BONUS</pre>               | The purse will be used for bonus.               |
+| <code>12006</code> | <pre>COMMISSION</pre>          | The purse will be used for commission.          |
+| <code>12007</code> | <pre>CASHBACK</pre>            | The purse will be used for cashback.            |
+| <code>12008</code> | <pre>CASHBACK_REFUND</pre>     | The purse will be used for cashback refund.     |
+| <code>12009</code> | <pre>CASHBACK_BONUS</pre>      | The purse will be used for cashback bonus.      |
+| <code>12010</code> | <pre>CASHBACK_COMMISSION</pre> | The purse will be used for cashback commission. |
+| <code>12011</code> | <pre>TEMPORARY</pre>           | The purse will be used for temporary events.    |
+
+
+### Status Codes
+| CODE               | CONSTANT            | DESCRIPTION                                      |
+|--------------------|---------------------|--------------------------------------------------|
+| <code>12100</code> | <pre>ACTIVE</pre>   | The purse is active and have full functionality. |
+| <code>12101</code> | <pre>INACTIVE</pre> | The purse is inactive and just can read data.    |
+| <code>12102</code> | <pre>BLOCKED</pre>  | The purse is blocked so there is no response.    |
+
 
 
