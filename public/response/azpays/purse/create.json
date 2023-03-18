@@ -1,0 +1,18 @@
+{
+  "succeed": true,
+  "message": "The data has been successfully created.",
+  "result": {
+    "id": "98b7b292-400b-4c16-a3a1-0a23d0ca31d4",
+    "name": "test",
+    "currency": "USD",
+    "note": "test note",
+    "type": null,
+    "status": null,
+    "address": "azp9e5332500346773fda38",
+    "color": "FFFFFF",
+    "balance": null,
+    "freeze": null,
+    "locked": null
+  },
+  "meta": []
+}

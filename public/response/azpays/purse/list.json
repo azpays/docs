@@ -3,19 +3,17 @@
   "message": "Response successfully returned.",
   "results": [
     {
-      "id": "75a7b2f6-0905-42a0-95ff-19107eda112d",
-      "name": "My Purse",
-      "currency": "GBP",
-      "note": null,
-      "status": 0,
-      "address": null,
+      "id": "98b7a5f2-75c6-4d4c-b383-8b1554c0480c",
+      "name": "test",
+      "currency": "USD",
+      "note": "test note",
+      "type": 12000,
+      "status": 12100,
+      "address": "azpe3ed3086b583970a60bb",
       "color": "FFFFFF",
-      "balance": "0.000000000000000000",
-      "freeze": "0.000000000000000000",
-      "locked": null,
-      "crated_at": "2023-02-06T15:50:00.000000Z",
-      "updated_at": "2023-02-06T15:50:00.000000Z"
-
+      "balance": "0",
+      "freeze": "0",
+      "locked": "0"
     }
   ],
   "metas": []

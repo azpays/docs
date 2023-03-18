@@ -1,0 +1,18 @@
+{
+  "succeed": true,
+  "message": "The data has been successfully updated.",
+  "result": {
+    "id": "98b7a5f2-75c6-4d4c-b383-8b1554c0480c",
+    "name": "update test",
+    "currency": "USD",
+    "note": "up",
+    "type": 12000,
+    "status": 12100,
+    "address": "azpe3ed3086b583970a60bb",
+    "color": "FF10EE",
+    "balance": "0",
+    "freeze": "0",
+    "locked": "0"
+  },
+  "meta": []
+}

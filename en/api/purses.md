@@ -23,13 +23,15 @@ $ curl --request GET \
 
 </CodeBox>
 
-<Response jfile="v1/purses/get" >
+<Response jfile="response/azpays/purse/list" >
 <template #result>
 
+- `id` <span>String</span> The ID of purses.
 - `name` <span>String</span> The name of purses.
-- `currency` <span>String</span> The currency selected.
+- `currency` <span>String</span> The currency selected. Check out [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html).
 - `note` <span>String</span> note.
-- `status` <span>String</span> status.
+- `type` <span>Integer</span> type. Check out [Type Codes Table](#type-codes).
+- `status` <span>Integer</span> status. Check out [Status Codes Table](#status-codes).
 - `address` <span>String</span> address.
 - `color` <span>String</span> color.
 - `balance` <span>Integer</span> balance.
@@ -59,13 +61,15 @@ $ curl --request GET \
 
 </CodeBox>
 
-<Response jfile="v1/purses/get" >
+<Response jfile="response/azpays/purse/read" >
 <template #result>
 
+- `id` <span>String</span> The ID of purses.
 - `name` <span>String</span> The name of purses.
-- `currency` <span>String</span> The currency selected.
+- `currency` <span>String</span> The currency selected. Check out [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html).
 - `note` <span>String</span> note.
-- `status` <span>String</span> status.
+- `type` <span>Integer</span> type. Check out [Type Codes Table](#type-codes).
+- `status` <span>Integer</span> status. Check out [Status Codes Table](#status-codes).
 - `address` <span>String</span> address.
 - `color` <span>String</span> color.
 - `balance` <span>Integer</span> balance.
@@ -87,9 +91,9 @@ Using our Store Purses Method, users are now able to easily store their purses i
 
 <template #params>
 
-- `name` <span>String</span>, The private custom name of purse.
+- `name` (optional) <span>String</span>, The private custom name of purse.
 - `currency` <span>String</span>, The currency that user selected. Check out [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html).
-- `note` <span>String</span> The user private custom note.
+- `note` (optional) <span>String</span> The user private custom note.
 - `color` <span>String</span> color.
 
 </template>
@@ -101,7 +105,7 @@ $ curl --request POST \
   https://api.trader4.net/v1/purses \
   -d '{
       "name"  : "trader4",
-      "currency": "IRR",
+      "currency": "AZP",
       "note"  : "Test purse for trader4",
       "color" : "000000",
   }'
@@ -111,14 +115,16 @@ $ curl --request POST \
 
 </CodeBox>
 
-<Response jfile="v1/purses/get" >
+<Response jfile="response/azpays/purse/create" >
 
 <template #result>
 
+- `id` <span>String</span> The ID of purses.
 - `name` <span>String</span> The name of purses.
-- `currency` <span>String</span> The currency selected.
+- `currency` <span>String</span> The currency selected. Check out [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html).
 - `note` <span>String</span> note.
-- `status` <span>String</span> status.
+- `type` <span>Integer</span> type. Check out [Type Codes Table](#type-codes).
+- `status` <span>Integer</span> status. Check out [Status Codes Table](#status-codes).
 - `address` <span>String</span> address.
 - `color` <span>String</span> color.
 - `balance` <span>Integer</span> balance.
@@ -140,9 +146,9 @@ Using our Update Purses Method, users are now able to easily Update their purses
 
 <template #params>
 
-- `name` <span>String</span> name.
+- `name` (optional) <span>String</span>, The private custom name of purse.
 - `color` <span>String</span> color.
-- `note` <span>String</span> note.
+- `note` (optional) <span>String</span> The user private custom note.
 
 </template>
 <template #code>
@@ -162,14 +168,16 @@ $ curl --request PUT \
 
 </CodeBox>
 
-<Response jfile="v1/purses/update" >
+<Response jfile="response/azpays/purse/update" >
 
 <template #result>
 
+- `id` <span>String</span> The ID of purses.
 - `name` <span>String</span> The name of purses.
-- `currency` <span>String</span> The currency selected.
+- `currency` <span>String</span> The currency selected. Check out [ISO 4217](https://www.iso.org/iso-4217-currency-codes.html).
 - `note` <span>String</span> note.
-- `status` <span>String</span> status.
+- `type` <span>Integer</span> type. Check out [Type Codes Table](#type-codes).
+- `status` <span>Integer</span> status. Check out [Status Codes Table](#status-codes).
 - `address` <span>String</span> address.
 - `color` <span>String</span> color.
 - `balance` <span>Integer</span> balance.
@@ -203,11 +211,50 @@ $ curl --request Delete \
 
 </CodeBox>
 
-<Response jfile="v1/purses/delete" >
+<Response jfile="response/azpays/purse/delete" >
 <template #result>
 
+- `id` <span>String</span> The ID of purses.
 
 </template>
+</Response>
+
+<CodeBox lang="Restful" method="POST" endpoint="/v1/purses/add-user">
+
+# Add User
+
+Using our Add User Purse Method, users are now able to easily connect a user to their purses.
+
+<template #params>
+
+- `purse_id` <span>String</span>, The ID of purse.
+- `user_id` <span>String</span> The ID of user.
+- `percentage` <span>Integer</span> A number between 1-100.
+
+</template>
+<template #code>
+
+```bash
+$ curl --request PUT \
+  https://api.trader4.net/v1/purses/{id}
+  -d '{
+    "purse_id: "98b7b292-400b-4c16-a3a1-0a23d0ca31d4",
+    "user_id: "98935731-cc1e-4af3-ae9a-3b5cf6e2e2c5",
+    "percentage: "12"  
+  }'
+  
+```
+
+</template>
+
+</CodeBox>
+
+<Response jfile="response/azpays/purse/add-user" >
+
+<template #result>
+
+</template>
+
 </Response>
 
 ### Type Codes
@@ -233,6 +280,3 @@ $ curl --request Delete \
 | <code>12100</code> | <pre>ACTIVE</pre>   | The purse is active and have full functionality. |
 | <code>12101</code> | <pre>INACTIVE</pre> | The purse is inactive and just can read data.    |
 | <code>12102</code> | <pre>BLOCKED</pre>  | The purse is blocked so there is no response.    |
-
-
-
