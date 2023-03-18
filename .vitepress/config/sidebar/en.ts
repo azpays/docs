@@ -114,6 +114,10 @@ export const en: DefaultTheme.Sidebar = {
               link: "/en/api/user",
             },
             {
+              text: "Payment",
+              link: "/en/api/payment",
+            },
+            {
               text: "Gateway",
               link: "/en/api/gateway",
             },
