@@ -1,0 +1,11 @@
+{
+  "succeed": true,
+  "message": "Response successfully returned.",
+  "result": {
+    "id": "98935beb-3354-435c-9f99-660fdde56cb7",
+    "name": "gateway 321",
+    "logo": null,
+    "status": 14101
+  },
+  "meta": []
+}

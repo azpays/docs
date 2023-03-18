@@ -118,51 +118,21 @@ export const en: DefaultTheme.Sidebar = {
               link: "/en/api/payment",
             },
             {
-              text: "Finance",
-              link: "/en/api/trader4/finance",
+              text: "Gateway",
+              link: "/en/api/gateway",
             },
             {
-              text: "Marketplace",
-              link: "/en/api/trader4/marketplace",
+              text: "Network",
+              link: "/en/api/network",
             },
             {
-              text: "Cloud",
-              link: "/en/api/trader4/cloud",
+              text: "Rate",
+              link: "/en/api/rate",
             },
             {
-              text: "Bazaar (Social Trading)",
-              link: "/en/api/trader4/bazaar",
-            },
-            {
-              text: "Financial Engineering",
-              link: "/en/api/trader4/financial-engineering",
-            },
-            {
-              text: "Capital Road (Funded)",
-              link: "/en/api/trader4/capital-road",
-            },
-            {
-            text: "Werify",
-            link: "/en/api/werify/intro",
-            items: [
-              {
-                text: "oAuth",
-                link: "/en/api/werify/oauth",
-              },
-              {
-                text: "User",
-                link: "/en/api/werify/user",
-              },
-              {
-                text: "Clap",
-                link: "/en/api/werify/clap",
-              },
-              {
-                text: "Comment",
-                link: "/en/api/werify/comment",
-              },
-            ]
-        },
+              text: "Purses",
+              link: "/en/api/purses",
+            }
       ],
     },
   ],
