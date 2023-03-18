@@ -29,18 +29,18 @@ deploy:
   script:
     - helm upgrade --install 
       "${CI_PROJECT_NAME}.production"
-      --namespace docs
+      --namespace azpays-docs
       --set name="docs-prod"
-      --set domainName="docs.trader4.net"
+      --set domainName="docs.azpays.net"
       --set image.repository="${IMG_NAME}"
       --set image.tag="${IMG_TAG}"
       --set tls.enabled="true"
-      --set tls.secretName="prod-docs-trader4-net-tls"
+      --set tls.secretName="prod-docs-azpays-net-tls"
       --create-namespace
       .ci/chart
   environment:
     name: review/$CI_COMMIT_REF_NAME
-    url: https://docs.trader4.net
+    url: https://docs.azpays.net
   only:
     - main
   needs: ["build"]
@@ -51,18 +51,18 @@ deploy_next:
   script:
     - helm upgrade --install 
       "${CI_PROJECT_NAME}.next"
-      --namespace docs
+      --namespace azpays-docs
       --set name="docs-next"
-      --set domainName="next-docs.trader4.net"
+      --set domainName="next-docs.azpays.net"
       --set image.repository="${IMG_NAME}"
       --set image.tag="${IMG_TAG}"
       --set tls.enabled="true"
-      --set tls.secretName="next-docs-trader4-net-tls"
+      --set tls.secretName="next-docs-azpays-net-tls"
       --create-namespace
       .ci/chart
   environment:
     name: review/$CI_COMMIT_REF_NAME
-    url: https://next-docs.trader4.net
+    url: https://next-docs.azpays.net
   only:
     - next
   needs: ["build"]

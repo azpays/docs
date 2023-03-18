@@ -6,14 +6,15 @@ ingressController: nginx
 service:
   type: ClusterIP
 
-domainName: "docs.trader4.net"
+domainName: "docs.azpays.net"
 
 tls:
   enabled: false
-  secretName: docs-trader4-net-wildcard-tls
+  clusterIssuer: le-clusterissuer
+  secretName: docs-azpays-net-wildcard-tls
 
 image:
-  repository: "trader4.{{ .Values.name }}-docs"
+  repository: "azpays.{{ .Values.name }}-docs"
   pullPolicy: Always
   tag: latest
 
