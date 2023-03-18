@@ -1,0 +1,25 @@
+{
+  "succeed": true,
+  "message": "Response successfully returned.",
+  "result": [
+    {
+      "id": "9893db6d-385a-44aa-abfe-b6dce4ff22fe",
+      "network_id": "9893a4d5-ad57-4c55-8620-57e9510ace4a",
+      "base": "GBP",
+      "currency": "USD",
+      "sell": 15.51,
+      "buy": 13.14,
+      "description": "this is test2"
+    },
+    {
+      "id": "9893db2f-1ae3-4960-8a22-39c97e2370c6",
+      "network_id": "9893a4d5-ad57-4c55-8620-57e9510ace4a",
+      "base": "EUR",
+      "currency": "USD",
+      "sell": 21,
+      "buy": 30,
+      "description": "this is test2"
+    }
+  ],
+  "meta": []
+}
