@@ -1,18 +1,41 @@
 {
   "succeed": true,
   "message": "Response successfully returned.",
-  "results": [
-    {
-      "uuid": "75a7b2f6-0905-42a0-95ff-19107eda112d",
-      "name": "My Purse",
-      "currency": "GBP",
-      "note": null,
-      "status": 0,
-      "number": 369508865,
-      "color": null,
-      "balance": "0.000000000000000000",
-      "freeze": "0.000000000000000000"
+  "result": {
+    "id": "98bb2e20-36dd-48bb-8727-0d07458048f0",
+    "type": 12400,
+    "amount": "651.000000000000000000",
+    "pay_description": null,
+    "payer_description": null,
+    "authority": "test",
+    "trace_number": "oij9552oikl",
+    "currency": "USD",
+    "verified_at": null,
+    "status": 12300,
+    "payer": "John Doe",
+    "payee": "Jane Doe",
+    "transactional": null,
+    "gateway": {
+      "id": "98bb2dc2-11a9-4551-9861-1d3313ba7f77",
+      "name": "gateway 321",
+      "logo": null,
+      "status": 14101
+    },
+    "network": {
+      "id": "98bb2e20-36dd-48bb-8727-0d07458044d5",
+      "gateway_id": "98bb2dc2-11a9-4551-9861-1d3313ba7f77",
+      "name": "network 1",
+      "fee": "2.00",
+      "support_portal": null,
+      "support_email": "test@example.com",
+      "support_phone": "+446562852235",
+      "processing_time": 165165158451,
+      "confirm_time": 165165158451,
+      "payout_time": 165165158451,
+      "countries": "gbr,usa",
+      "processors": null,
+      "logo": null
     }
-  ],
-  "metas": []
+  },
+  "meta": []
 }
