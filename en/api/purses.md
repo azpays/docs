@@ -6,9 +6,9 @@ aside: false
 
 <CodeBox lang="Restful" method="GET" endpoint="/v1/purses">
 
-# Purses
+# List
 
-Using our purses Method, users are now able to easily retrieve their purses information.
+Using our purse list Method, users are now able to easily retrieve their purses information.
 
 <!--@include: /partials/authorization.md-->
 
@@ -37,6 +37,11 @@ $ curl --request GET \
 - `balance` <span>Integer</span> balance.
 - `freeze` <span>Integer</span> freeze.
 - `locked` <span>Integer</span> locked.
+- `purse_user` <span>JSON Object</span> purse user.
+  - `id` <span>String</span> The ID of purse user.
+  - `purse_id` <span>String</span>, The ID of purse.
+  - `user_id` <span>String</span> The ID of user.
+  - `percentage` <span>Integer</span> A number between 1-100.
 
 </template>
 </Response>
@@ -44,9 +49,9 @@ $ curl --request GET \
 
 <CodeBox lang="Restful" method="GET" endpoint="/v1/purses/{id}">
 
-# Purses Detail
+# Details
 
-Using our purses Method, users are now able to easily retrieve their purses information.
+Using our purse details Method, users are now able to easily retrieve their purses information.
 
 <!--@include: /partials/authorization.md-->
 
@@ -75,6 +80,11 @@ $ curl --request GET \
 - `balance` <span>Integer</span> balance.
 - `freeze` <span>Integer</span> freeze.
 - `locked` <span>Integer</span> locked.
+- `purse_user` <span>JSON Object</span> purse user.
+  - `id` <span>String</span> The ID of purse user.
+  - `purse_id` <span>String</span>, The ID of purse.
+  - `user_id` <span>String</span> The ID of user.
+  - `percentage` <span>Integer</span> A number between 1-100.
 
 </template>
 </Response>
@@ -84,10 +94,11 @@ $ curl --request GET \
 <CodeBox lang="Restful" method="POST" endpoint="/v1/purses">
 
 
-# Store Purses
+# Store
 
 Using our Store Purses Method, users are now able to easily store their purses information.
 
+<!--@include: /partials/authorization.md-->
 
 <template #params>
 
@@ -130,6 +141,11 @@ $ curl --request POST \
 - `balance` <span>Integer</span> balance.
 - `freeze` <span>Integer</span> freeze.
 - `locked` <span>Integer</span> locked.
+- `purse_user` <span>JSON Object</span> purse user.
+  - `id` <span>String</span> The ID of purse user.
+  - `purse_id` <span>String</span>, The ID of purse.
+  - `user_id` <span>String</span> The ID of user.
+  - `percentage` <span>Integer</span> A number between 1-100.
 
 </template>
 
@@ -143,6 +159,8 @@ $ curl --request POST \
 # Update
 
 Using our Update Purses Method, users are now able to easily Update their purses information.
+
+<!--@include: /partials/authorization.md-->
 
 <template #params>
 
@@ -183,8 +201,11 @@ $ curl --request PUT \
 - `balance` <span>Integer</span> balance.
 - `freeze` <span>Integer</span> freeze.
 - `locked` <span>Integer</span> locked.
-
-
+- `purse_user` <span>JSON Object</span> purse user.
+  - `id` <span>String</span> The ID of purse user.
+  - `purse_id` <span>String</span>, The ID of purse.
+  - `user_id` <span>String</span> The ID of user.
+  - `percentage` <span>Integer</span> A number between 1-100.
 
 </template>
 
@@ -225,6 +246,8 @@ $ curl --request Delete \
 
 Using our Add User Purse Method, users are now able to easily connect a user to their purses.
 
+<!--@include: /partials/authorization.md-->
+
 <template #params>
 
 - `purse_id` <span>String</span>, The ID of purse.
@@ -235,8 +258,8 @@ Using our Add User Purse Method, users are now able to easily connect a user to 
 <template #code>
 
 ```bash
-$ curl --request PUT \
-  https://api.trader4.net/v1/purses/{id}
+$ curl --request POST \
+  https://api.trader4.net/v1/purses/add-user
   -d '{
     "purse_id: "98b7b292-400b-4c16-a3a1-0a23d0ca31d4",
     "user_id: "98935731-cc1e-4af3-ae9a-3b5cf6e2e2c5",
@@ -250,6 +273,78 @@ $ curl --request PUT \
 </CodeBox>
 
 <Response jfile="response/azpays/purse/add-user" >
+
+<template #result>
+
+</template>
+
+</Response>
+
+<CodeBox lang="Restful" method="PUT" endpoint="/v1/purses/{purse_id}/update-user">
+
+# Update User
+
+Using our Update User Purse Method, users are now able to easily update their user-purses info.
+
+<!--@include: /partials/authorization.md-->
+
+<template #params>
+
+- `user_id` <span>String</span> The ID of user.
+- `percentage` <span>Integer</span> A number between 1-100.
+
+</template>
+
+<template #code>
+
+```bash
+$ curl --request PUT \
+  https://api.trader4.net/v1/purses/{purse_id}/update-user
+  -d '{
+    "user_id: "98935731-cc1e-4af3-ae9a-3b5cf6e2e2c5",
+    "percentage: "12"  
+  }'
+  
+```
+
+</template>
+
+</CodeBox>
+
+<Response jfile="response/azpays/purse/update-user" >
+
+<template #result>
+
+</template>
+
+</Response>
+
+<CodeBox lang="Restful" method="DELETE" endpoint="/v1/purses/{purse_id}/delete-user">
+
+# Delete User
+
+Using our Delete User Purse Method, users are now able to easily delete their user-purses.
+
+<!--@include: /partials/authorization.md-->
+
+<template #params>
+
+- `purse_id` <span>String</span>, The ID of purse.
+
+</template>
+
+<template #code>
+
+```bash
+$ curl --request DELETE \
+  https://api.trader4.net/v1/purses/{purse_id}/delete-user
+```
+
+</template>
+
+</CodeBox>
+
+<Response jfile="response/azpays/purse/delete-user" >
 
 <template #result>
 
