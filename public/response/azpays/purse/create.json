@@ -12,7 +12,13 @@
     "color": "FFFFFF",
     "balance": null,
     "freeze": null,
-    "locked": null
+    "locked": null,
+    "purse_user": {
+      "id": "98b7ad9f-2bef-47e7-93b0-4c1ea7019e33",
+      "user_id": "98935731-cc1e-4af3-ae9a-3b5cf6e2e2c5",
+      "purse_id": "98b7ad9f-2678-4a03-b179-f2787b6501ea",
+      "percentage": "100.00"
+    }
   },
   "meta": []
 }
