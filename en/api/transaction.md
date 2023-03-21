@@ -6,7 +6,7 @@ aside: false
 
 <CodeBox lang="Restful" method="GET" endpoint="/v1/transactions">
 
-# Transactions
+# List
 
 Using our transactions Method, users are now able to easily retrieve their transactions information.
 

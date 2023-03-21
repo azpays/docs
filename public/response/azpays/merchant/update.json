@@ -1,7 +1,7 @@
 {
   "succeed": true,
-  "message": "Response successfully returned.",
-  "results": {
+  "message": "The data has been successfully updated.",
+  "result": {
     "id": "98bdd1f8-2dec-4b64-9f7c-f225c1f9b50a",
     "name": "merchant",
     "logo": null,
@@ -37,11 +37,6 @@
         "id": "98bdc2a2-3dbd-4b00-b9ed-bfcdeb94e3c7",
         "title": "tag 1",
         "slug": "tag-1"
-      },
-      {
-        "id": "99bdc2a2-4251-4619-9bb6-3905d22bea81",
-        "title": "tag 2",
-        "slug": "tag-2"
       }
     ],
     "categories": [
@@ -50,14 +45,8 @@
         "title": "Day Trading",
         "slug": null,
         "type": 13000
-      },
-      {
-        "id": "98bdc2a2-3dbd-4b00-b9ed-bfcdeb94e3c3",
-        "title": "Scalping",
-        "slug": null,
-        "type": 13000
       }
     ]
   },
-  "metas": []
+  "meta": []
 }
