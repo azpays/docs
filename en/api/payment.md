@@ -6,7 +6,7 @@ aside: false
 
 <CodeBox lang="Restful" method="GET" endpoint="/v1/payments">
 
-# Payment
+# List
 
 Using our payment Method, users are now able to easily retrieve their payment information.
 
