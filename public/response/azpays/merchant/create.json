@@ -1,7 +1,7 @@
 {
   "succeed": true,
-  "message": "Response successfully returned.",
-  "results": {
+  "message": "The data has been successfully created.",
+  "result": {
     "id": "98bdd1f8-2dec-4b64-9f7c-f225c1f9b50a",
     "name": "merchant",
     "logo": null,
@@ -59,5 +59,5 @@
       }
     ]
   },
-  "metas": []
+  "meta": []
 }
